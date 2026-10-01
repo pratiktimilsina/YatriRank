@@ -1,0 +1,18 @@
+.overview-page{display:flex;flex-direction:column;gap:14px;overflow:auto}
+.overview-page>*{flex-shrink:0}
+.about-card h3{font:700 .82rem var(--font-body);color:var(--ink);margin:0 0 4px}
+.about-card p{margin:0;font-size:.8rem;line-height:1.6}
+.about-card b{color:var(--ink);font-weight:700}
+.about-lead{font-size:.86rem!important;color:var(--ink)!important}
+.about-questions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:12px 0}
+.about-questions>div{padding:12px 14px;background:var(--surface-raised);border:1px solid var(--line);border-radius:var(--radius-sm)}
+.page-guide{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 24px;margin:0;padding-left:18px;font-size:.8rem;color:var(--ink-dim);line-height:1.6}
+.overview-tables{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;align-items:stretch}
+.overview-tables .data-table td{padding:8px 10px}
+.domain-badge{display:inline-block;padding:3px 7px;border:1px solid var(--line);border-radius:999px;font-size:.63rem;color:var(--ink-dim)}
+.rating-cell{font-weight:800;white-space:nowrap}
+@media(max-width:1000px){.overview-tables,.about-questions,.page-guide{grid-template-columns:1fr}}
+
+.section-help{margin:10px 0 0;font-size:.76rem;line-height:1.5;color:var(--ink-dim)}
+.section-help b{color:var(--ink);font-weight:700}
+.aspect-coverage-card .section-help{margin:10px 0 0}

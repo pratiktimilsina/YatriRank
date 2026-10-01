@@ -1,0 +1,33 @@
+{
+  "n_reviews": 10536,
+  "aspect_coverage": 0.8988230827638573,
+  "aspect_coverage_raw": 0.9017653758542141,
+  "n_aspect_clause_pairs": 36614,
+  "n_dropped_other_place_mentions": 289,
+  "scorer_correlations": {
+    "tfidf_lr_score": {
+      "tfidf_lr_score": 1.0,
+      "distilbert_score": 0.794,
+      "bert_en_score": 0.791,
+      "vader_score": 0.588
+    },
+    "distilbert_score": {
+      "tfidf_lr_score": 0.794,
+      "distilbert_score": 1.0,
+      "bert_en_score": 0.836,
+      "vader_score": 0.623
+    },
+    "bert_en_score": {
+      "tfidf_lr_score": 0.791,
+      "distilbert_score": 0.836,
+      "bert_en_score": 1.0,
+      "vader_score": 0.664
+    },
+    "vader_score": {
+      "tfidf_lr_score": 0.588,
+      "distilbert_score": 0.623,
+      "bert_en_score": 0.664,
+      "vader_score": 1.0
+    }
+  }
+}

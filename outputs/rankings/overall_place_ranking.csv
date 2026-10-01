@@ -1,0 +1,29 @@
+city,domain,place,mean_rating,n_reviews
+Kathmandu,Attraction,Boudhanath Stupa,4.1183533447684395,583
+Pokhara,Attraction,Sarangkot,4.113110539845758,389
+Pokhara,Attraction,Phewa Tal,4.085714285714285,595
+Kathmandu,Attraction,Swaymbhunath,4.068610634648371,583
+Pokhara,Attraction,Peace Temple,4.048689138576779,534
+Kathmandu,Attraction,Pashupatinath Temple,3.993162393162393,585
+Pokhara,Attraction,International Mountain Museum,3.9613526570048307,414
+Kathmandu,Attraction,Thamel,3.946127946127946,594
+Kathmandu,Attraction,Kathmandu Durbar Square,3.9028960817717206,587
+Pokhara,Attraction,Gupteswar Gupha,3.810304449648712,427
+Pokhara,Attraction,Devi's Fall,3.7416107382550337,596
+Kathmandu,Attraction,Garden of Dreams,3.1622641509433964,265
+Kathmandu,Hotel,The Soaltee Kathmandu,4.163064833005894,509
+Pokhara,Hotel,Pokhara Grande,4.15929203539823,113
+Pokhara,Hotel,Waterfront Resort By KGH Group,4.113300492610837,203
+Pokhara,Hotel,Temple Tree Resort & Spa,4.07667731629393,313
+Pokhara,Hotel,The Lakeside Retreat,4.025,120
+Kathmandu,Hotel,Kantipur Temple House,3.9912663755458517,229
+Kathmandu,Hotel,Trekkers' Home,3.9842105263157896,190
+Pokhara,Hotel,OR2K Pokhara,3.9381270903010033,598
+Kathmandu,Hotel,Radisson Hotel Kathmandu,3.9101694915254237,590
+Pokhara,Hotel,Fish Tail Lodge,3.5548780487804876,164
+Pokhara,Hotel,Hotel Barahi,3.460674157303371,178
+Kathmandu,Hotel,Gaia Restaurant,3.409356725146199,171
+Kathmandu,Hotel,Hotel Shanker - Palatial Heritage Kathmandu,3.202247191011236,267
+Kathmandu,Hotel,Hotel Yak & Yeti,3.0698529411764706,272
+Kathmandu,Hotel,Hyatt Regency Kathmandu,2.921641791044776,268
+Kathmandu,Hotel,Kathmandu Guest House,2.4271356783919598,199

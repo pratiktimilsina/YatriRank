@@ -1,0 +1,33 @@
+.analyze-review-page{display:flex;flex-direction:column;gap:12px;overflow:auto}
+.analyze-review-page textarea{width:100%;resize:vertical;display:block;min-height:120px}
+.review-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:10px}
+.model-status-row{display:flex;gap:7px;flex-wrap:wrap}
+.model-status-chip{display:flex;align-items:center;gap:6px;padding:5px 9px;border:1px solid var(--line);border-radius:999px;font-size:.68rem;cursor:help}
+.status-dot{width:6px;height:6px;border-radius:50%;background:var(--ink-faint)}
+.status-ok{color:var(--lake)}
+.status-ok .status-dot{background:var(--lake)}
+.status-down{color:var(--rhododendron)}
+.status-down .status-dot{background:var(--rhododendron)}
+.muted{font-size:.72rem;color:var(--ink-faint);margin:10px 0 0}
+.results-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.model-result{display:flex;flex-direction:column;gap:12px}
+.model-title{display:flex;justify-content:space-between;gap:8px;align-items:flex-start;font-size:.78rem;font-weight:800}
+.model-title small{display:block;font-weight:600;color:var(--ink-faint);font-size:.64rem;margin-top:2px}
+.model-title b{text-transform:capitalize;font-size:.74rem}
+.prob-list{display:flex;flex-direction:column;gap:7px}
+.prob-row{display:grid;grid-template-columns:64px 1fr 44px;align-items:center;gap:8px;font-size:.7rem;color:var(--ink-dim)}
+.prob-name{text-transform:capitalize}
+.prob-track{height:8px;border-radius:4px;background:var(--surface-raised);overflow:hidden}
+.prob-fill{display:block;height:100%;border-radius:4px}
+.prob-row strong{font-family:var(--font-display);text-align:right}
+.tone-positive{color:var(--lake)}.fill-positive{background:var(--lake)}
+.tone-neutral{color:var(--marigold)}.fill-neutral{background:var(--marigold)}
+.tone-negative{color:var(--rhododendron)}.fill-negative{background:var(--rhododendron)}
+.tone-other{color:var(--ink-dim)}.fill-other{background:var(--ink-faint)}
+.model-missing{opacity:.75}
+@media(max-width:850px){.results-grid{grid-template-columns:1fr}}
+
+.example-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:12px;padding-top:12px;border-top:1px solid var(--line)}
+.example-label{font-size:.66rem;color:var(--ink-faint);text-transform:uppercase;letter-spacing:.04em;font-weight:800}
+.example-chip{padding:4px 10px;border:1px solid var(--line);border-radius:999px;background:transparent;color:var(--ink-dim);font-size:.68rem;cursor:pointer}
+.example-chip:hover{border-color:var(--lake);color:var(--lake)}
